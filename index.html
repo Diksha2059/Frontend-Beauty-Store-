@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GlowUp - Beauty Products</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>GlowUp</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+      <div class="cart-icon" onclick="toggleCart()">🛒 (<span id="cart-count">0</span>)</div>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Products</h2>
+    <div class="product-grid" id="product-list">
+      <!-- Products will be injected here -->
+    </div>
+  </main>
+
+  <!-- Shopping Cart -->
+  <div class="cart-modal" id="cart-modal">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+    <button onclick="checkout()">Checkout</button>
+    <button onclick="clearCart()">Clear Cart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
