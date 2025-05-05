@@ -18,48 +18,138 @@ const products = [
     price: 22.99,
     image: "https://example.com/images/lavender-body-lotion.jpg"
   },
+  {id: 4, 
+  name: "Rose Face Cream", 
+  price: 19.99, 
+  image: "https://example.com/images/rose-face-cream.jpg"
+},
   {
-    id: 4,
+    id: 5,
     name: "Cucumber Eye Gel",
     price: 12.99,
     image: "https://example.com/images/cucumber-eye-gel.jpg"
   },
-  {
-    id: 5,
-    name: "Charcoal Face Mask",
-    price: 15.99,
-    image: "https://example.com/images/charcoal-face-mask.jpg"
-  },
-  {
-    id: 6,
-    name: "Tea Tree Oil",
-    price: 9.99,
+ 
+    {
+      id: 6, 
+    name: "Tea Tree Oil", 
+    price: 9.99, 
     image: "https://example.com/images/tea-tree-oil.jpg"
   },
-  {
-    id: 7,
-    name: "Vitamin C Serum",
-    price: 29.99,
+    {
+    id: 7, 
+    name: "Charcoal Face Mask", 
+    price: 15.99, 
+    image: "https://example.com/images/charcoal-face-mask.jpg"
+  },
+    {
+    id: 8, 
+    name: "Vitamin C Serum", 
+    price: 29.99, 
     image: "https://example.com/images/vitamin-c-serum.jpg"
   },
-  {
-    id: 8,
-    name: "Hyaluronic Acid Moisturizer",
-    price: 24.99,
-    image: "https://example.com/images/hyaluronic-acid-moisturizer.jpg"
+    {id: 9, 
+   name: "Hyaluronic Acid Moisturizer", 
+   price: 24.99, 
+   image: "https://example.com/images/hyaluronic-acid-moisturizer.jpg"
   },
-  {
-    id: 9,
-    name: "Sunscreen SPF 50",
-    price: 18.99,
-    image: "https://example.com/images/sunscreen-spf-50.jpg"
-  },
-  {
-    id: 10,
-    name: "Exfoliating Scrub",
-    price: 16.99,
+    {
+      id: 10, 
+      name: "Sunscreen SPF 50", 
+      price: 18.99, 
+      image: "https://example.com/images/sunscreen-spf-50.jpg"
+    },
+    {
+    id: 11, 
+    name: "Exfoliating Scrub", 
+    price: 16.99, 
     image: "https://example.com/images/exfoliating-scrub.jpg"
-  }
+  },
+    {
+    id: 12, 
+    name: "Nourishing Hair Oil", 
+    price: 21.99, 
+    image: "https://example.com/images/nourishing-hair-oil.jpg"
+  },
+    {
+      id: 13, 
+      name: "Lip Balm", 
+      price: 5.99, 
+      image: "https://example.com/images/lip-balm.jpg"
+    },
+    {
+    id: 14, 
+    name: "Foot Cream", 
+    price: 11.99, 
+    image: "https://example.com/images/foot-cream.jpg"
+  },
+    {
+      id: 15, 
+    name: "Hand Cream", 
+    price: 13.99, 
+    image: "https://example.com/images/hand-cream.jpg"
+  },
+    {
+      id: 16, 
+      name: "Body Wash", 
+      price: 17.99, 
+      image: "https://example.com/images/body-wash.jpg"
+    },
+    {
+    id: 17, 
+    name: "Shampoo", 
+    price: 19.99, 
+    image: "https://example.com/images/shampoo.jpg"
+  },
+    {
+      id: 18, 
+      name: "Conditioner", 
+      price: 19.99, 
+      image: "https://example.com/images/conditioner.jpg"
+    },
+    {
+      id: 19, 
+      name: "Face Wash", 
+      price: 14.99, 
+      image: "https://example.com/images/face-wash.jpg"
+    },
+    {
+      id: 20, 
+    name: "Makeup Remover", 
+    price: 12.99, 
+    image: "https://example.com/images/makeup-remover.jpg"
+  },
+    {
+      id: 21, 
+      name: "Facial Toner", 
+      price: 15.99, 
+      image: "https://example.com/images/facial-toner.jpg"
+    },
+    {
+      id: 22, 
+    name: "Moisturizing Cream", 
+    price: 20.99, 
+    image: "https://example.com/images/moisturizing-cream.jpg"
+  },
+    {
+      id: 23, 
+      name: "Anti-Aging Serum", 
+      price: 29.99, 
+      image: "https://example.com/images/anti-aging-serum.jpg"
+    },
+    {
+    id: 24, 
+    name: "Brightening Cream", 
+    price: 24.99, 
+    image: "https://example.com/images/brightening-cream.jpg"
+  },
+    {
+      id: 25, 
+      name: "Peeling Gel", 
+      price: 18.99, 
+      image: "https://example.com/images/peeling-gel.jpg"
+    },
+ 
 ];
 
 // Cart array to store selected products
